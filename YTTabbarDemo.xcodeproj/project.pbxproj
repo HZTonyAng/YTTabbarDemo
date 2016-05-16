@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51188AA7BA4CC8162BF34A68 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243F3312008BA9EAD3A24C3 /* libPods.a */; };
+		7161DC671CE9720F00006775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7161DC661CE9720F00006775 /* main.m */; };
+		7161DC6A1CE9720F00006775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7161DC691CE9720F00006775 /* AppDelegate.m */; };
+		7161DC6D1CE9720F00006775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7161DC6C1CE9720F00006775 /* ViewController.m */; };
+		7161DC701CE9720F00006775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7161DC6E1CE9720F00006775 /* Main.storyboard */; };
+		7161DC721CE9720F00006775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7161DC711CE9720F00006775 /* Assets.xcassets */; };
+		7161DC751CE9720F00006775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7161DC731CE9720F00006775 /* LaunchScreen.storyboard */; };
+		7161DC801CE9721000006775 /* YTTabbarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7161DC7F1CE9721000006775 /* YTTabbarDemoTests.m */; };
+		7161DC8B1CE9721000006775 /* YTTabbarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7161DC8A1CE9721000006775 /* YTTabbarDemoUITests.m */; };
+		71F27D9A1CE9748C00526F5F /* MiuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F27D951CE9748C00526F5F /* MiuButton.m */; };
+		71F27D9B1CE9748C00526F5F /* MiuTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F27D971CE9748C00526F5F /* MiuTabBar.m */; };
+		71F27D9C1CE9748C00526F5F /* MiuTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F27D991CE9748C00526F5F /* MiuTabBarController.m */; };
+		71F27D9F1CE9750500526F5F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F27D9E1CE9750500526F5F /* HomeViewController.m */; };
+		71F27DA21CE9756D00526F5F /* View1.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F27DA11CE9756D00526F5F /* View1.m */; };
+		71F27DA51CE9757800526F5F /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F27DA41CE9757800526F5F /* View2.m */; };
+		71F27DA81CE975A400526F5F /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F27DA71CE975A400526F5F /* View3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7161DC7C1CE9721000006775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7161DC5A1CE9720F00006775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7161DC611CE9720F00006775;
+			remoteInfo = YTTabbarDemo;
+		};
+		7161DC871CE9721000006775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7161DC5A1CE9720F00006775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7161DC611CE9720F00006775;
+			remoteInfo = YTTabbarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10BE1D2707B3B4BE8ADFA4F3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3F5CB232EB91345F84898401 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6243F3312008BA9EAD3A24C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7161DC621CE9720F00006775 /* YTTabbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTTabbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7161DC661CE9720F00006775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7161DC681CE9720F00006775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7161DC691CE9720F00006775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7161DC6B1CE9720F00006775 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7161DC6C1CE9720F00006775 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7161DC6F1CE9720F00006775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7161DC711CE9720F00006775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7161DC741CE9720F00006775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7161DC761CE9720F00006775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7161DC7B1CE9721000006775 /* YTTabbarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTTabbarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7161DC7F1CE9721000006775 /* YTTabbarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTabbarDemoTests.m; sourceTree = "<group>"; };
+		7161DC811CE9721000006775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7161DC861CE9721000006775 /* YTTabbarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTTabbarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7161DC8A1CE9721000006775 /* YTTabbarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTabbarDemoUITests.m; sourceTree = "<group>"; };
+		7161DC8C1CE9721000006775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F27D941CE9748C00526F5F /* MiuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiuButton.h; sourceTree = "<group>"; };
+		71F27D951CE9748C00526F5F /* MiuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiuButton.m; sourceTree = "<group>"; };
+		71F27D961CE9748C00526F5F /* MiuTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiuTabBar.h; sourceTree = "<group>"; };
+		71F27D971CE9748C00526F5F /* MiuTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiuTabBar.m; sourceTree = "<group>"; };
+		71F27D981CE9748C00526F5F /* MiuTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiuTabBarController.h; sourceTree = "<group>"; };
+		71F27D991CE9748C00526F5F /* MiuTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiuTabBarController.m; sourceTree = "<group>"; };
+		71F27D9D1CE9750500526F5F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		71F27D9E1CE9750500526F5F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		71F27DA01CE9756D00526F5F /* View1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1.h; sourceTree = "<group>"; };
+		71F27DA11CE9756D00526F5F /* View1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1.m; sourceTree = "<group>"; };
+		71F27DA31CE9757800526F5F /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2.h; sourceTree = "<group>"; };
+		71F27DA41CE9757800526F5F /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2.m; sourceTree = "<group>"; };
+		71F27DA61CE975A400526F5F /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
+		71F27DA71CE975A400526F5F /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7161DC5F1CE9720F00006775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51188AA7BA4CC8162BF34A68 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7161DC781CE9721000006775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7161DC831CE9721000006775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0355DBBA69B7B40CDEBA5A5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10BE1D2707B3B4BE8ADFA4F3 /* Pods.debug.xcconfig */,
+				3F5CB232EB91345F84898401 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7161DC591CE9720F00006775 = {
+			isa = PBXGroup;
+			children = (
+				7161DC641CE9720F00006775 /* YTTabbarDemo */,
+				7161DC7E1CE9721000006775 /* YTTabbarDemoTests */,
+				7161DC891CE9721000006775 /* YTTabbarDemoUITests */,
+				7161DC631CE9720F00006775 /* Products */,
+				0355DBBA69B7B40CDEBA5A5A /* Pods */,
+				B223371F40EF26482B16EA58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7161DC631CE9720F00006775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7161DC621CE9720F00006775 /* YTTabbarDemo.app */,
+				7161DC7B1CE9721000006775 /* YTTabbarDemoTests.xctest */,
+				7161DC861CE9721000006775 /* YTTabbarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7161DC641CE9720F00006775 /* YTTabbarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				71F27D931CE9748C00526F5F /* MiuTabBarController */,
+				7161DC681CE9720F00006775 /* AppDelegate.h */,
+				7161DC691CE9720F00006775 /* AppDelegate.m */,
+				71F27D9D1CE9750500526F5F /* HomeViewController.h */,
+				71F27D9E1CE9750500526F5F /* HomeViewController.m */,
+				71F27DA01CE9756D00526F5F /* View1.h */,
+				71F27DA11CE9756D00526F5F /* View1.m */,
+				71F27DA31CE9757800526F5F /* View2.h */,
+				71F27DA41CE9757800526F5F /* View2.m */,
+				71F27DA61CE975A400526F5F /* View3.h */,
+				71F27DA71CE975A400526F5F /* View3.m */,
+				7161DC6B1CE9720F00006775 /* ViewController.h */,
+				7161DC6C1CE9720F00006775 /* ViewController.m */,
+				7161DC6E1CE9720F00006775 /* Main.storyboard */,
+				7161DC711CE9720F00006775 /* Assets.xcassets */,
+				7161DC731CE9720F00006775 /* LaunchScreen.storyboard */,
+				7161DC761CE9720F00006775 /* Info.plist */,
+				7161DC651CE9720F00006775 /* Supporting Files */,
+			);
+			path = YTTabbarDemo;
+			sourceTree = "<group>";
+		};
+		7161DC651CE9720F00006775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7161DC661CE9720F00006775 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7161DC7E1CE9721000006775 /* YTTabbarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7161DC7F1CE9721000006775 /* YTTabbarDemoTests.m */,
+				7161DC811CE9721000006775 /* Info.plist */,
+			);
+			path = YTTabbarDemoTests;
+			sourceTree = "<group>";
+		};
+		7161DC891CE9721000006775 /* YTTabbarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7161DC8A1CE9721000006775 /* YTTabbarDemoUITests.m */,
+				7161DC8C1CE9721000006775 /* Info.plist */,
+			);
+			path = YTTabbarDemoUITests;
+			sourceTree = "<group>";
+		};
+		71F27D931CE9748C00526F5F /* MiuTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				71F27D941CE9748C00526F5F /* MiuButton.h */,
+				71F27D951CE9748C00526F5F /* MiuButton.m */,
+				71F27D961CE9748C00526F5F /* MiuTabBar.h */,
+				71F27D971CE9748C00526F5F /* MiuTabBar.m */,
+				71F27D981CE9748C00526F5F /* MiuTabBarController.h */,
+				71F27D991CE9748C00526F5F /* MiuTabBarController.m */,
+			);
+			path = MiuTabBarController;
+			sourceTree = "<group>";
+		};
+		B223371F40EF26482B16EA58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6243F3312008BA9EAD3A24C3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7161DC611CE9720F00006775 /* YTTabbarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7161DC8F1CE9721000006775 /* Build configuration list for PBXNativeTarget "YTTabbarDemo" */;
+			buildPhases = (
+				739F878BD40E906BA7F34254 /* Check Pods Manifest.lock */,
+				7161DC5E1CE9720F00006775 /* Sources */,
+				7161DC5F1CE9720F00006775 /* Frameworks */,
+				7161DC601CE9720F00006775 /* Resources */,
+				3BDF1A14B14E11984E91FF2A /* Embed Pods Frameworks */,
+				62FD57498D91DEC234455CEB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTTabbarDemo;
+			productName = YTTabbarDemo;
+			productReference = 7161DC621CE9720F00006775 /* YTTabbarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7161DC7A1CE9721000006775 /* YTTabbarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7161DC921CE9721000006775 /* Build configuration list for PBXNativeTarget "YTTabbarDemoTests" */;
+			buildPhases = (
+				7161DC771CE9721000006775 /* Sources */,
+				7161DC781CE9721000006775 /* Frameworks */,
+				7161DC791CE9721000006775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7161DC7D1CE9721000006775 /* PBXTargetDependency */,
+			);
+			name = YTTabbarDemoTests;
+			productName = YTTabbarDemoTests;
+			productReference = 7161DC7B1CE9721000006775 /* YTTabbarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7161DC851CE9721000006775 /* YTTabbarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7161DC951CE9721000006775 /* Build configuration list for PBXNativeTarget "YTTabbarDemoUITests" */;
+			buildPhases = (
+				7161DC821CE9721000006775 /* Sources */,
+				7161DC831CE9721000006775 /* Frameworks */,
+				7161DC841CE9721000006775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7161DC881CE9721000006775 /* PBXTargetDependency */,
+			);
+			name = YTTabbarDemoUITests;
+			productName = YTTabbarDemoUITests;
+			productReference = 7161DC861CE9721000006775 /* YTTabbarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7161DC5A1CE9720F00006775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TonyAng;
+				TargetAttributes = {
+					7161DC611CE9720F00006775 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7161DC7A1CE9721000006775 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7161DC611CE9720F00006775;
+					};
+					7161DC851CE9721000006775 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7161DC611CE9720F00006775;
+					};
+				};
+			};
+			buildConfigurationList = 7161DC5D1CE9720F00006775 /* Build configuration list for PBXProject "YTTabbarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7161DC591CE9720F00006775;
+			productRefGroup = 7161DC631CE9720F00006775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7161DC611CE9720F00006775 /* YTTabbarDemo */,
+				7161DC7A1CE9721000006775 /* YTTabbarDemoTests */,
+				7161DC851CE9721000006775 /* YTTabbarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7161DC601CE9720F00006775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7161DC751CE9720F00006775 /* LaunchScreen.storyboard in Resources */,
+				7161DC721CE9720F00006775 /* Assets.xcassets in Resources */,
+				7161DC701CE9720F00006775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7161DC791CE9721000006775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7161DC841CE9721000006775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BDF1A14B14E11984E91FF2A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62FD57498D91DEC234455CEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		739F878BD40E906BA7F34254 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7161DC5E1CE9720F00006775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7161DC6D1CE9720F00006775 /* ViewController.m in Sources */,
+				71F27D9A1CE9748C00526F5F /* MiuButton.m in Sources */,
+				7161DC6A1CE9720F00006775 /* AppDelegate.m in Sources */,
+				71F27DA51CE9757800526F5F /* View2.m in Sources */,
+				71F27D9C1CE9748C00526F5F /* MiuTabBarController.m in Sources */,
+				71F27D9B1CE9748C00526F5F /* MiuTabBar.m in Sources */,
+				71F27D9F1CE9750500526F5F /* HomeViewController.m in Sources */,
+				71F27DA21CE9756D00526F5F /* View1.m in Sources */,
+				71F27DA81CE975A400526F5F /* View3.m in Sources */,
+				7161DC671CE9720F00006775 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7161DC771CE9721000006775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7161DC801CE9721000006775 /* YTTabbarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7161DC821CE9721000006775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7161DC8B1CE9721000006775 /* YTTabbarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7161DC7D1CE9721000006775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7161DC611CE9720F00006775 /* YTTabbarDemo */;
+			targetProxy = 7161DC7C1CE9721000006775 /* PBXContainerItemProxy */;
+		};
+		7161DC881CE9721000006775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7161DC611CE9720F00006775 /* YTTabbarDemo */;
+			targetProxy = 7161DC871CE9721000006775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7161DC6E1CE9720F00006775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7161DC6F1CE9720F00006775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7161DC731CE9720F00006775 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7161DC741CE9720F00006775 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7161DC8D1CE9721000006775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7161DC8E1CE9721000006775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7161DC901CE9721000006775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BE1D2707B3B4BE8ADFA4F3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTTabbarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzxcbkj.YTTabbarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7161DC911CE9721000006775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5CB232EB91345F84898401 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTTabbarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzxcbkj.YTTabbarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7161DC931CE9721000006775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YTTabbarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzxcbkj.YTTabbarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTTabbarDemo.app/YTTabbarDemo";
+			};
+			name = Debug;
+		};
+		7161DC941CE9721000006775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YTTabbarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzxcbkj.YTTabbarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTTabbarDemo.app/YTTabbarDemo";
+			};
+			name = Release;
+		};
+		7161DC961CE9721000006775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YTTabbarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzxcbkj.YTTabbarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YTTabbarDemo;
+			};
+			name = Debug;
+		};
+		7161DC971CE9721000006775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YTTabbarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzxcbkj.YTTabbarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YTTabbarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7161DC5D1CE9720F00006775 /* Build configuration list for PBXProject "YTTabbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7161DC8D1CE9721000006775 /* Debug */,
+				7161DC8E1CE9721000006775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7161DC8F1CE9721000006775 /* Build configuration list for PBXNativeTarget "YTTabbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7161DC901CE9721000006775 /* Debug */,
+				7161DC911CE9721000006775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7161DC921CE9721000006775 /* Build configuration list for PBXNativeTarget "YTTabbarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7161DC931CE9721000006775 /* Debug */,
+				7161DC941CE9721000006775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7161DC951CE9721000006775 /* Build configuration list for PBXNativeTarget "YTTabbarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7161DC961CE9721000006775 /* Debug */,
+				7161DC971CE9721000006775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7161DC5A1CE9720F00006775 /* Project object */;
+}
